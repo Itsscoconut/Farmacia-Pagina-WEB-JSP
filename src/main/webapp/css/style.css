@@ -1,0 +1,189 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    background-color: cadetblue;
+}
+
+main {
+    width: 100%;
+    height: 400px;
+}
+
+
+/*---------------------------header-------------------------------*/
+.logo-header {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+
+/*---------------------------nav-------------------------------*/
+
+.menu-bar {
+    list-style: none;
+    display: flex;
+    float: right;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.menu-bar-option {
+    margin:15px;
+    cursor: pointer;
+}
+
+.menu-bar-link {
+    text-decoration: none;
+    color: #efefef;
+    text-align: center;
+}
+
+.menu-bar-link:hover {
+    color: grey;
+}
+
+/*---------------------------main-------------------------------*/
+
+.title-main {
+    width: 60rem;
+    height: 10rem;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+/*---------------------------Farmacias-------------------------------*/
+
+.search-bar {
+    margin-top: 20px;
+    margin-left: 65%;
+    width: 24rem;
+    height: 30px;
+    display: flex;
+}
+
+.search-bar input {
+    width: 20rem;
+    height: 25px;
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-search-bar {
+    background-color: cadetblue;
+    width: 40px;
+}
+
+.btn-search-bar i {
+    color: white;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.pharmacy {
+    margin-top: 20px;
+    margin-left: 65%;
+    width: 25rem;
+    height: 9rem;
+    border-radius: 5px;
+    border: 1px solid #DED8D8;
+
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+    display: flex;
+
+}
+
+.pharmacy:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.img-pharmacy {
+    width: 130px;
+    height: 100%;
+    border: 1px solid #DED8D8;;
+}
+
+.logo-pharmacy {
+    width: 125px;
+    height: 125px;
+    margin-top: 10px;
+}
+
+.position-table {
+    width: 100px;
+    height: 50px;
+}
+
+.table-link {
+    width: 10rem;
+    height: 1.7rem;
+    background-color: chocolate;
+}
+
+.table-link-ubication {
+    background-color: cadetblue;
+    width: 10rem;
+    height: 1.7rem;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: -15px;
+    float: left;
+    margin-left: 20px;
+}
+
+.link-ubication-pharmacy {
+    text-decoration: none;
+    color: white;
+}
+
+.link-ubication-pharmacy:hover {
+    color: gray;
+}
+
+.table-tittle {
+    width: 300px;
+    height: 30px;
+}
+
+.posit-text-title, .posit-text-desc {
+    margin-left: 20px;
+    width: 100%;
+}
+
+.table-desc {
+    margin-top: 14px;
+    width: 17rem;
+    height: 60px;
+}
+
+.posit-text-desc {
+    margin-top: -18px;
+    height: 3rem;
+    color: #6a6a6a;
+}
+
+/*-----------mapa url---------------*/
+.mapa-url {
+    margin-top: -50rem;
+    margin-left: 6rem;
+    border-radius: 10px;
+    position: absolute;
+}
